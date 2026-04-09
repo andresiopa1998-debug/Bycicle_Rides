@@ -9,6 +9,8 @@ Cyclistic, a prominent bike-share program, seeks to maximize its profitability b
 
 Key Finding: Casual riders primarily use the service for leisure and sightseeing on weekends, while members utilize the service for consistent daily commuting in industrial and business districts.
 
+![Comparison of Member vs Casual Usage](bar_graph.png)
+
 Business Task
 Primary Question: How do annual members and casual riders use Cyclistic bikes differently?
 
