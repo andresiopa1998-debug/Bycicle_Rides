@@ -54,13 +54,13 @@ Usage Patterns:
 
 Duration & Location:
 
-Casual Riders:
--Longer rides
--Popular in tourist and sightseeing areas
+-Casual Riders:
+Longer rides
+Popular in tourist and sightseeing areas
 
-Annual Members:
--Shorter, efficient rides
--Concentrated in business and industrial districts
+-Annual Members:
+Shorter, efficient rides
+Concentrated in business and industrial districts
 
 
 **Recommendations**
