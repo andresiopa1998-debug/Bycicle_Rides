@@ -3,24 +3,24 @@ Case Study: Cyclistic Bike-Share Analysis
 Author: Andre Siopa
 LinkedIn: www.linkedin.com/in/andré-siopa-5a9b91324
 
-Tools Used
+**Tools Used**
 
 Python (Pandas, Matplotlib, Seaborn), Google Colab, Google Drive
 
-Executive Summary
+**Executive Summary**
 
 Cyclistic, a prominent bike-share program, aims to increase profitability by converting casual riders into annual members.
 
 This analysis of 12 months of historical trip data reveals clear behavioral differences between user types.
 
-Key Insight:
+**Key Insight**
 
 Casual riders primarily use bikes for leisure and sightseeing, especially on weekends.
 Annual members use bikes consistently for daily commuting, particularly in business and industrial areas.
 
 ![Comparison of Member vs Casual Usage](bar_graph.png)
 
-Business Task
+**Business Task**
 
 Primary Question:
 How do annual members and casual riders use Cyclistic bikes differently?
@@ -28,7 +28,7 @@ How do annual members and casual riders use Cyclistic bikes differently?
 Goal:
 Provide data-driven recommendations to support marketing strategies that increase membership conversions.
 
-Data Process
+**Data Process**
 
 Data Ingestion & Cleaning:
 -Processed large datasets (>100MB per file) using Python (Pandas) in Google Colab
@@ -44,7 +44,7 @@ Data Transformation:
   day_of_week
 -Removed invalid trips (negative or zero duration)
 
-Key Insights
+**Key Insights**
 
 Usage Patterns:
 
@@ -63,7 +63,7 @@ Annual Members:
 -Concentrated in business and industrial districts
 
 
-Recommendations:
+**Recommendations**
 
 -Targeted Weekend Promotions
 Introduce weekend or seasonal membership plans for casual riders
