@@ -71,9 +71,11 @@ Concentrated in business and industrial districts
 
 **Recommendations**
 
--Targeted Weekend Promotions
+-Targeted Weekend Promotions: 
 Introduce weekend or seasonal membership plans for casual riders
--Industrial Hub Campaigns
+
+-Industrial Hub Campaigns: 
 Promote memberships in commuter-heavy locations
--Incentivized Conversion
+
+-Incentivized Conversion: 
 Offer discounts for casual users who reach ride thresholds
