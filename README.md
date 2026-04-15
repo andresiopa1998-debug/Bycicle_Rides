@@ -1,22 +1,28 @@
-Case Study: Cyclistic Bike-Share Analysis
+# Cyclistic Bike-Share Analysis
 
-Author: Andre Siopa
-LinkedIn: www.linkedin.com/in/andré-siopa-5a9b91324
+**Author:** Andre Siopa  
+**LinkedIn:** [andre-siopa](https://www.linkedin.com/in/andré-siopa-5a9b91324)
 
-**Tools Used**
+---
 
-Python (Pandas, Matplotlib, Seaborn), Google Colab, Google Drive
+## Tools Used
+![Python](https://img.shields.io/badge/Python-Pandas-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-blue)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-Storage-green)
 
-**Executive Summary**
+---
 
+## Executive Summary
 Cyclistic, a prominent bike-share program, aims to increase profitability by converting casual riders into annual members.
 
 This analysis of 12 months of historical trip data reveals clear behavioral differences between user types.
 
-**Key Insight**
+**Key Insight:**
+- Casual riders primarily use bikes for leisure and sightseeing, especially on weekends  
+- Annual members use bikes consistently for daily commuting, particularly in business and industrial areas  
 
-Casual riders primarily use bikes for leisure and sightseeing, especially on weekends.
-Annual members use bikes consistently for daily commuting, particularly in business and industrial areas.
 
 ![Comparison of Member vs Casual Usage](bar_graph.png)
 
