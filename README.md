@@ -1,16 +1,12 @@
 # Cyclistic Bike-Share Analysis
 
 **Author:** Andre Siopa  
-**LinkedIn:** [andre-siopa](https://www.linkedin.com/in/andré-siopa-5a9b91324)
+**LinkedIn:** https://www.linkedin.com/in/andré-siopa-5a9b91324  
 
 ---
 
 ## Tools Used
-![Python](https://img.shields.io/badge/Python-Pandas-blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-blue)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-orange)
-![Google Drive](https://img.shields.io/badge/Google%20Drive-Storage-green)
+Python (Pandas, Matplotlib, Seaborn), Google Colab, Google Drive  
 
 ---
 
@@ -23,65 +19,62 @@ This analysis of 12 months of historical trip data reveals clear behavioral diff
 - Casual riders primarily use bikes for leisure and sightseeing, especially on weekends  
 - Annual members use bikes consistently for daily commuting, particularly in business and industrial areas  
 
-
 ![Comparison of Member vs Casual Usage](bar_graph.png)
 
-**Business Task**
+## Business Task
 
-Primary Question:
+**Primary Question:**  
 How do annual members and casual riders use Cyclistic bikes differently?
 
-Goal:
+**Goal:**  
 Provide data-driven recommendations to support marketing strategies that increase membership conversions.
 
-**Data Process**
+---
 
-Data Ingestion & Cleaning:
--Processed large datasets (>100MB per file) using Python (Pandas) in Google Colab
--Merged 12 monthly datasets into a single DataFrame using glob and pd.concat
--Removed duplicate records
--Cleaned column names using .strip()
--Standardized missing values using "N/A"
+## Data Process
 
-Data Transformation:
--Converted started_at and ended_at into datetime format
--Created new features:
-   ride_length (minutes)
-  day_of_week
--Removed invalid trips (negative or zero duration)
+### Data Ingestion and Cleaning
+- Processed large datasets (>100MB per file) using Python (Pandas) in Google Colab  
+- Merged 12 monthly datasets into a single DataFrame using `glob` and `pd.concat`  
+- Removed duplicate records  
+- Cleaned column names using `.strip()`  
+- Standardized missing values using "N/A"  
 
-**Key Insights**
+### Data Transformation
+- Converted `started_at` and `ended_at` into datetime format  
+- Created new features:  
+  - `ride_length` (minutes)  
+  - `day_of_week`  
+- Removed invalid trips (negative or zero duration)  
 
-Usage Patterns:
+---
 
--Members show stable usage Monday–Friday
+## Key Insights
 
--Casual riders spike significantly on weekends
+### Usage Patterns
+- Members show stable usage Monday through Friday  
+- Casual riders spike significantly on weekends  
+- Weekend casual usage nearly matches member volume  
 
--Weekend casual usage nearly matches member volume
+### Duration and Location
 
-Duration & Location:
+**Casual Riders**
+- Longer rides  
+- Popular in tourist and sightseeing areas  
 
--Casual Riders:
+**Annual Members**
+- Shorter, efficient rides  
+- Concentrated in business and industrial districts  
 
-Longer rides
+---
 
-Popular in tourist and sightseeing areas
+## Recommendations
 
--Annual Members:
+- **Targeted Weekend Promotions**  
+  Introduce weekend or seasonal membership plans for casual riders  
 
-Shorter, efficient rides
+- **Industrial Hub Campaigns**  
+  Promote memberships in commuter-heavy locations  
 
-Concentrated in business and industrial districts
-
-
-**Recommendations**
-
--Targeted Weekend Promotions: 
-Introduce weekend or seasonal membership plans for casual riders
-
--Industrial Hub Campaigns: 
-Promote memberships in commuter-heavy locations
-
--Incentivized Conversion: 
-Offer discounts for casual users who reach ride thresholds
+- **Incentivized Conversion**  
+  Offer discounts for casual users who reach ride thresholds  
