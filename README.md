@@ -49,17 +49,23 @@ Data Transformation:
 Usage Patterns:
 
 -Members show stable usage Monday–Friday
+
 -Casual riders spike significantly on weekends
+
 -Weekend casual usage nearly matches member volume
 
 Duration & Location:
 
 -Casual Riders:
+
 Longer rides
+
 Popular in tourist and sightseeing areas
 
 -Annual Members:
+
 Shorter, efficient rides
+
 Concentrated in business and industrial districts
 
 
